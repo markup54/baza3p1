@@ -79,4 +79,9 @@ public class GraKomputerowa {
     public void setKategoria(String kategoria) {
         this.kategoria = kategoria;
     }
+
+    @Override
+    public String toString() {
+        return       "nazwa:" + nazwa + ", opis:" + opis;
+    }
 }
